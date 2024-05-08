@@ -23,8 +23,8 @@ grand_total = sub_total + pst_value + gst_value
 
 # Outputs
 puts "Subtotal: $#{sub_total}"
-puts "PST: $#{pst_rate} - #{PST * 100}%"
-puts "GST: $#{gst_rate} - #{GST * 100}%"
+puts "PST: $#{pst_value} - #{PST * 100}%"
+puts "GST: $#{gst_value} - #{GST * 100}%"
 puts "Grand Total: $#{grand_total}"
 
 # Conditional messages
